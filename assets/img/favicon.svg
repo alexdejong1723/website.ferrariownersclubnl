@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Ferrari Ownersclub NL">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f01420"/><stop offset="1" stop-color="#a60710"/></linearGradient></defs>
+  <path d="M7 5h50v31c0 13-10.500 20.500-25 27C17.500 56.500 7 49 7 36z" fill="url(#g)"/>
+  <path d="M7 5h50v6H7z" fill="#d9b45a"/>
+  <path d="M23 17h26l-1.200 7.500H30.500l-.9 5.500H45l-1.200 7.300H28.600L26.800 49H18.500z" fill="#fff"/>
+</svg>
