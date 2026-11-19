@@ -48,7 +48,7 @@
         '<img src="assets/img/' + esc(ev.img) + '" alt="' + esc(ev.title) + '" loading="lazy"' + (ev.pos ? ' style="--pos:' + esc(ev.pos) + '"' : "") + '>' +
         (idx === nextIdx ? '<span class="badge-next">Eerstvolgende</span>' : "") +
         '<div class="info"><span class="date">' + esc(label(ev)) + "</span>" +
-        "<h3>" + esc(ev.title) + "</h3>" + (ev.place ? '<div class="loc">' + esc(ev.place) + "</div>" : "") + "</div></article>";
+        "<h3>" + esc(ev.title) + "</h3>" + '<div class="loc"' + (ev.place ? "" : ' aria-hidden="true"') + ">" + (ev.place ? esc(ev.place) : "&nbsp;") + "</div>" + "</div></article>";
     }).join("");
     $$(".reveal", cards).forEach(function (el) { io ? io.observe(el) : el.classList.add("in"); });
   }

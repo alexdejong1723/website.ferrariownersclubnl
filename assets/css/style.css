@@ -110,7 +110,7 @@ section { padding: 100px 0; }
 .event .info { padding: 22px; width: 100%; }
 .event .date { display: inline-flex; align-items: baseline; gap: 6px; background: var(--red); color: #fff; padding: 5px 12px; border-radius: 999px; font-size: 0.78rem; font-weight: 600; letter-spacing: 0.04em; margin-bottom: 12px; }
 .event h3 { font-size: 1.5rem; }
-.event .loc { color: #cfcbc4; font-size: 0.9rem; margin-top: 2px; }
+.event .loc { color: #cfcbc4; font-size: 0.9rem; margin-top: 2px; min-height: 1.7em; }
 .event.past { filter: grayscale(0.85) brightness(0.8); }
 .badge-next { position: absolute; top: 16px; right: 16px; background: var(--gold); color: #1a1405; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.14em; text-transform: uppercase; padding: 5px 11px; border-radius: 999px; }
 
