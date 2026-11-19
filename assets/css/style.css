@@ -243,3 +243,18 @@ form.card { background: var(--surface); border: 1px solid var(--line); border-ra
   .hero img.bg { object-position: 30% 0%; }
   .hero::after { background: linear-gradient(180deg, rgba(11, 11, 12, 0.6) 0%, rgba(11, 11, 12, 0.05) 22%, rgba(11, 11, 12, 0.82) 48%, var(--bg) 85%); }
 }
+
+/* Social-iconen */
+.social { display: flex; align-items: center; gap: 8px; }
+.social a { width: 42px; height: 42px; display: grid; place-items: center; border-radius: 50%; border: 1px solid var(--line); color: #d8d4cd; transition: background 0.2s, color 0.2s, border-color 0.2s, transform 0.2s; }
+.social a:hover { background: var(--red); border-color: var(--red); color: #fff; transform: translateY(-2px); }
+.social svg { width: 20px; height: 20px; }
+.nav .social-desktop { margin-left: 4px; }
+.menu .social-mobile { display: none; }
+.menu .social-mobile a { width: 42px; height: 42px; padding: 0; }
+.site-footer .social a { color: #d3cfc8; }
+.site-footer .social a:hover { color: #fff; }
+@media (max-width: 960px) {
+  .nav .social-desktop { display: none; }
+  .menu .social-mobile { display: block; padding: 12px 16px 0; }
+}
